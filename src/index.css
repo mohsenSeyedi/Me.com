@@ -19,7 +19,4 @@ html{
   color: white;
   transition: all .1s;
 }
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
