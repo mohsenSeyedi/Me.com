@@ -1,0 +1,56 @@
+.Header{
+    width: 100%;
+    height: auto;
+}
+.section-img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.section-img-text{
+   width: 40%;
+   padding-bottom: 6rem;
+}
+.hi-text{
+    color: #ffbd39;
+    font-size: 2rem;
+}
+.section-img-text h3{
+    font-size: 6rem;
+    color: #ffbd39;
+    font-weight: bold;
+}
+.section-img-text h3 span{
+    color: white;
+}
+.role-text{
+    font-size: 3rem;
+}
+.header-btns{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-left: 4rem;
+}
+.header-btns a{
+    font-weight: bold;
+    border: 1px solid grey;
+    padding: 1.5rem 3.5rem;
+    border-radius: 25rem;
+}
+#header-btn-1{
+    border: 1px solid #ffbd39;
+    background-color: #ffbd39;
+    color: black;
+}
+#header-btn-2{
+    margin-left: 1rem;
+}
+.section-img-content{
+    width: 400px;
+    height: 630px;
+    background: url(../../../../public/img/me/msg317320486-21967_prev_ui.png) no-repeat;
+    background-size: cover;
+}
