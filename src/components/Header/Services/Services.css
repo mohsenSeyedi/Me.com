@@ -1,0 +1,47 @@
+.services{
+    width: 100%;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services-container{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.services-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.services-head h4{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    position: relative;
+}
+.services-head h4::before{
+    content: "Services";
+    position: absolute;
+    opacity: .1;
+    font-size: 8rem;
+    left: -4rem;
+    top: -1rem;
+    font-weight: bold;
+    color: white;
+}
+.services-head p {
+    font-size: 2rem;
+    text-align: center;
+}
+.services-boxes{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 3rem;
+    margin-top: 3rem;
+}
