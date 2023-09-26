@@ -13,6 +13,9 @@ body {
 html{
   font-size: 62.5%;
 }
+p{
+  color: #99999999;
+}
 *{
   text-decoration: none;
   list-style: none;

@@ -1,0 +1,39 @@
+.resume {
+    width: 100%;
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resume-container{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.resume-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.resume-head h4{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    position: relative;
+}
+.resume-head h4::before{
+    content: "Resume";
+    position: absolute;
+    opacity: .1;
+    font-size: 7rem;
+    font-weight: bold;
+    color: white;
+}
+.resume-head p {
+    width: 90%;
+    font-size: 2rem;
+    text-align: center;
+}
