@@ -1,0 +1,19 @@
+
+.box{
+    padding: 3rem;
+    font-size: 3rem;
+    background-color: #1a1a1a;
+    border-radius: 1rem;
+}
+.box span{
+    font-weight: bold;
+    color: #ffbd39;
+}
+.box h6{
+    color: #99999999;
+    font-size: 1.8rem;
+}
+.box p{
+    font-size: 1.6rem;
+    color: #99999999;
+}

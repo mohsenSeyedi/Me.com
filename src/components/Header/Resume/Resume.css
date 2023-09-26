@@ -37,3 +37,19 @@
     font-size: 2rem;
     text-align: center;
 }
+.resume-boxes{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.resume-btn {
+    margin-top: 8rem;
+}
+.resume-btn a{
+    padding: 2rem 6rem;
+    font-size: 1.8rem;
+    color: black;
+    background-color: #ffbd39;
+    border-radius: 25rem;
+}
