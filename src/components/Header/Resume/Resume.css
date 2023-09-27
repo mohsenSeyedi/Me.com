@@ -23,6 +23,7 @@
     font-size: 5rem;
     font-weight: bold;
     position: relative;
+    height: 10px;
 }
 .resume-head h4::before{
     content: "Resume";
