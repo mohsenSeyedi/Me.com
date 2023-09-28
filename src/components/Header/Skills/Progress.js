@@ -1,15 +1,15 @@
 import React from 'react'
-import "./Progress.css"
+
 
 export default function Progress({title , percent , width}) {
   return (
-    <div className="animate-box">
-        <div className="animate-box-text">
+    <div className="w-full flex flex-col">
+        <div className="w-[90%] flex items-center justify-between text-[2rem]">
           <span>{title}</span>
           <span>{percent}</span>
         </div>
-        <div className="progress">
-          <div className="progress-bar" style={{width: `${width}`}}></div>
+        <div className="w-full h-3 rounded-lg bg-[#1a1a1a] mt-4">
+          <div className="h-full rounded-lg bg-yellow-color" style={{width: `${width}`}}></div>
         </div>
     </div>
   )
