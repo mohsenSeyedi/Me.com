@@ -1,31 +1,8 @@
-.box-services{
-    width: 20rem;
-    padding: 3rem;
-    font-size: 3rem;
-    background-color: #1a1a1a;
-    border-radius: 1rem;
-    text-align: center;
-    transition: all .3s;
-}
-.box-services:hover{
-    background-color: #ffbd39;
-}
-.box-services:hover .icon i {
+
+#box-services:hover span i {
     color: white;
 }
-.box-services:hover h4{
+#box-services:hover h4{
     color: black;
 }
-.icon i {
-    color: #ffbd39;
-}
-.box-services h4{
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
 
-hr{
-    width: 20%;
-    background-color: #ffbd39;
-}
