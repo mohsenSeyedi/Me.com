@@ -4,10 +4,6 @@
 
 body {
   background-color: black;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -21,9 +17,14 @@ p{
   color: #99999999;
 }
 *{
-  text-decoration: none;
-  list-style: none;
   color: white;
   transition: all .1s;
+}
+
+.header-text {
+  @apply text-[5rem] font-bold relative before:absolute before:left-[-2rem] before:top-6 before:opacity-10 before:text-[8rem] before:font-bold before:text-white
+}
+.btn {
+  @apply bg-yellow-color text-black  rounded-full
 }
 
