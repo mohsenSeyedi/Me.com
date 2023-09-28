@@ -1,55 +1,55 @@
-.Header{
+/* .Header{
     width: 100%;
     height: auto;
-}
-.section-img{
+} */
+/* .section-img{
     width: 100%;
     height: auto;
     display: flex;
     align-items: center;
-}
-.section-img-text{
+} */
+/* .section-img-text{
    width: 40%;
    padding-bottom: 6rem;
    padding-left: 4rem;
-}
-.hi-text{
+} */
+/* .hi-text{
     color: #ffbd39;
     font-size: 2rem;
-}
-.section-img-text h3{
+} */
+/* .section-img-text h3{
     font-size: 6rem;
     color: #ffbd39;
     font-weight: bold;
-}
-.section-img-text h3 span{
+} */
+/* .section-img-text h3 span{
     color: white;
-}
-.role-text{
+} */
+/* .role-text{
     font-size: 3rem;
     color: white;
-}
-.header-btns{
+} */
+/* .header-btns{
     width: 100%;
     display: flex;
     align-items: center;
     font-size: 1.3rem;
     margin-left: 4rem;
-}
-.header-btns a{
+} */
+/* .header-btns a{
     font-weight: bold;
-    border: 1px solid grey;
+    border: 1px solid #808080;
     padding: 1.5rem 3.5rem;
     border-radius: 25rem;
-}
-#header-btn-1{
+} */
+/* #header-btn-1{
     border: 1px solid #ffbd39;
     background-color: #ffbd39;
     color: black;
-}
-#header-btn-2{
+} */
+/* #header-btn-2{
     margin-left: 1rem;
-}
+} */
 .section-img-content{
     width: 400px;
     height: 630px;
