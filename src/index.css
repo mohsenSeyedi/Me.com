@@ -27,4 +27,7 @@ p{
 .btn {
   @apply bg-yellow-color text-black  rounded-full
 }
+.overlay{
+  @apply absolute inset-x-0 inset-y-0 bg-yellow-color opacity-0  transition-all duration-300 hover:opacity-70 
+}
 
