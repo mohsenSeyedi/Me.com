@@ -5,3 +5,6 @@
 #box-services:hover h4{
     color: black;
 }
+#box-services:hover .icon{
+    fill: white;
+}

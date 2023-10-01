@@ -11,7 +11,7 @@ export default function Blog({imgId}) {
                     <span className="text-yellow-color">JUNE 21, 2019</span>
                     <span className="text-yellow-color">ADMIN</span>
                     <a href="#" className="flex items-center text-yellow-color"> 
-                    <BiMessageAltDetail className="text-yellow-color mr-1"/>
+                    <BiMessageAltDetail className="fill-yellow-500 mr-1"/>
                     3
                     </a>
                 </div>
