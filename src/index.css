@@ -30,4 +30,7 @@ p{
 .overlay{
   @apply absolute inset-x-0 inset-y-0 bg-yellow-color opacity-0  transition-all duration-300 hover:opacity-70 
 }
+.icon{
+  @apply fill-yellow-color text-6xl
+}
 

@@ -1,14 +1,15 @@
 import React,{useState} from 'react'
 import "./Contact.css"
 import Box from './Box'
+import { PiMapPinFill,PiPhoneBold,PiTelegramLogoBold ,PiGlobeDuotone } from 'react-icons/pi';
 
 export default function Contact() {
 
   const [contactBoxes ,setContactBox] = useState([
-    {id:1 , title:"address" , subTitle: "198 West 21th Street, Suite 721 New York NY 10016"},
-    {id:2 , title:"Complete Projects" , subTitle: "+ 1235 2355 98"},
-    {id:3 , title:"Happy Customers" ,subTitle: "info@yoursite.com"},
-    {id:4 , title:"Cups of coffee" , subTitle: "mohsen.com"},
+    {id:1 ,icon:<PiMapPinFill className="icon"/>, title:"address" , subTitle: "198 West 21th Street, Suite 721 New York NY 10016"},
+    {id:2 ,icon:<PiPhoneBold className="icon"/>, title:"Complete Projects" , subTitle: "+ 1235 2355 98"},
+    {id:3 ,icon:<PiTelegramLogoBold className="icon"/>, title:"Happy Customers" ,subTitle: "info@yoursite.com"},
+    {id:4 ,icon:<PiGlobeDuotone className="icon"/>, title:"Cups of coffee" , subTitle: "mohsen.com"},
   ])
 
   return (
