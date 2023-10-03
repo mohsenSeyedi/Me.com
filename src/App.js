@@ -7,6 +7,8 @@ import Skills from './components/Header/Skills/Skills';
 import Projects from "./components/Header/Projects/Projects";
 import Blogs from "./components/Header/Blogs/Blogs";
 import Achievements from "./components/Header/Achievements/Achievements";
+import Contact from "./components/Header/Contact-Me/Contact";
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       <Projects></Projects>
       <Blogs></Blogs>
       <Achievements></Achievements>
+      <Contact></Contact>
     </div>
   );
 }
