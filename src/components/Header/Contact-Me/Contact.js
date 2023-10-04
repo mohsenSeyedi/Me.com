@@ -24,6 +24,32 @@ export default function Contact() {
             <Box key={box.id} {...box}/>
           ))}
         </div>
+        <div className="w-full flex items-center justify-center mt-20">
+          <div className="w-[95%] h-[95vh] mx-auto flex bg-[#1e1e1e] rounded-md">
+            <div className="img w-1/2 flex items-center justify-center">
+              <img className="h-[61.5rem]" src="./img/me/msg317320486-21967_prev_ui.png" alt="" />
+            </div>
+            <div className="form w-1/2 h-full bg-white">
+              <form action="#" className="w-[85%] p-12 mx-auto my-8 flex flex-col items-center">
+                <div className="w-full mb-8">
+                  <input type="text" placeholder="Your Name" className="form-input"/>
+                </div>
+                <div className="w-full mb-8">
+                  <input type="text" placeholder="Your Email" className="form-input"/>
+                </div>
+                <div className="w-full mb-8">
+                  <input type="text" placeholder="Subject" className="form-input"/>
+                </div>
+                <div className="w-full mb-8">
+                  <textarea placeholder="Message" className="w-full h-64 p-6 outline-none rounded-xl border border-neutral-400 text-2xl text-[#191919]" style={{resize: "none" }}></textarea>
+                </div>
+                <div className="w-full mb-8">
+                  <input className="btn py-6 px-16 text-2xl cursor-pointer" type="submit" value={"SEND MESSAGE"} />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
     </div>
 </div>
   )

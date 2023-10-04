@@ -33,4 +33,6 @@ p{
 .icon{
   @apply fill-yellow-color text-6xl
 }
-
+.form-input {
+  @apply w-full h-20 p-6 outline-none rounded-xl border border-neutral-400 text-2xl text-[#191919]
+}
