@@ -1,8 +1,11 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Blog from './Blog'
 import "./Blogs.css"
+import blogData from './data'
 
 export default function Blogs() {
+    const [blogs , setBlogs] = useState(blogData)
+
   return (
     <div id="blogs-section" className="w-full flex items-center justify-center mt-60">
         <div className="w-[95%] flex flex-col items-center justify-center">
@@ -12,9 +15,9 @@ export default function Blogs() {
             </div>
             <div className="w-full flex items-center justify-center mt-20">
                 <div className="w-[95%] h-auto grid grid-cols-3 gap-12">
-                    <Blog imgId={"blog-img-1"}/>
-                    <Blog imgId={"blog-img-2"}/>
-                    <Blog imgId={"blog-img-3"}/>
+                    {blogs.map(blog => (
+                        <Blog key={blog.id} {...blog}/>
+                    ))}
                 </div>
             </div>
         </div>
