@@ -13,7 +13,7 @@ export default function Contact() {
   ])
 
   return (
-    <div id="contact" className="w-full flex items-center justify-center mt-40 mb-40">
+    <div id="contact-section" className="w-full flex items-center justify-center mt-40 mb-40">
     <div id="contact-container" className="w-[95%] flex flex-col items-center justify-center">
         <div className="flex flex-col items-center justify-center">
             <h4 className="header-text before:content-['Contact'] before:left-[-4] before:top-[-1rem]">Contact Me</h4>

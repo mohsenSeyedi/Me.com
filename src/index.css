@@ -12,6 +12,7 @@ body {
 }
 html{
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 p{
   color: #99999999;

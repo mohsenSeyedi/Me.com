@@ -7,7 +7,7 @@ export default function Skills() {
   const [skills , setSkills] = useState(skillsData)
   
   return (
-    <div id="skills" className="w-full mt-40 flex items-center justify-center">
+    <div id="skills-section" className="w-full mt-40 flex items-center justify-center">
     <div className="w-[95%] flex flex-col items-center justify-center">
         <div className="flex flex-col items-center justify-center">
             <h4 className="header-text before:content-['Myskills'] before:left-[-5rem] before:mt-[-2rem]">My skills</h4>
