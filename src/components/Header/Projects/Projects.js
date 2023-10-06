@@ -18,9 +18,9 @@ export default function Projects() {
                 <h4 className="header-text before:content-['Projects'] before:mt-[-1rem] before:left-[-3rem]">Our Projects</h4>
                 <p className="text-3xl mt-14">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
             </div>
-            <Swiper navigation={true} modules={[Navigation]} className="mySwiper w-full h-full">
+            <Swiper navigation={true} modules={[Navigation]} className="mySwiper w-full h-full mt-32">
                 {projects.map(project => (
-                    <SwiperSlide key={project.id} {...project} className=""><Project/></SwiperSlide>
+                    <SwiperSlide style={{ display : "flex" }} className="justify-between"><Project key={project.id} {...project} /></SwiperSlide>
                 ))}
             </Swiper>
         </div>
