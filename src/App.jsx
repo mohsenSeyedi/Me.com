@@ -11,7 +11,7 @@ import Footer from "./components/Header/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App xl:w-full 2xl:w-[80%] 3xl:w-[80%] 2xl:mx-auto 3xl:mx-auto">
       <Header></Header>
       <AboutMe></AboutMe>
       <Resume></Resume>

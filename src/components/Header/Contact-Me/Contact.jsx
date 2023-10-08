@@ -27,7 +27,7 @@ export default function Contact() {
         <div className="w-full flex items-center justify-center mt-20">
           <div className="w-[95%] h-[95vh] mx-auto flex bg-[#1e1e1e] rounded-md">
             <div className="img w-1/2 flex items-center justify-center">
-              <img className="h-[61.5rem]" src="./img/me/msg317320486-21967_prev_ui.png" alt="" />
+              <img className="w-full h-full object-contain" src="./img/me/msg317320486-21967_prev_ui.png" alt="" />
             </div>
             <div className="form w-1/2 h-full bg-white">
               <form action="#" className="w-[85%] p-12 mx-auto my-8 flex flex-col items-center">

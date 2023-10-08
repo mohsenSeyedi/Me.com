@@ -3,7 +3,7 @@ import "./NavBar.css"
 
 export default function NavBar () {
     return (
-        <div id="nav-bar" className="w-full h-[80px] text-white bg-black flex items-center justify-center">
+        <div id="nav-bar" className="w-full h-[80px] text-white z-50 bg-black flex items-center justify-center">
             <div id="container-nav-bar" className="w-[95%] flex items-center justify-between">
                 <div className="nav-bar-logo">
                     <a href="#me" className="text-5xl font-bold font-sans">MOHSEN</a>
