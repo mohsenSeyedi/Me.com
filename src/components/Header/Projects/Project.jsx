@@ -17,7 +17,7 @@ export default function Project(props) {
           </div>
           <div className='flex items-center mt-5'>
               <p className=' text-white font-swap text-3xl'>See View</p>
-              <a  href="#"><button className='bg-red-600 text-3xl relative top-1 rounded-full ml-3 p-4 text-white'><HiArrowLongRight /></button></a>
+              <a  href={props.href}><button className='bg-red-600 text-3xl relative top-1 rounded-full ml-3 p-4 text-white'><HiArrowLongRight /></button></a>
           </div>
       </main>
       <section className="pr-24" > 
