@@ -30,7 +30,7 @@ export default function Contact() {
               <img className="w-full h-full object-contain" src="./img/me/msg317320486-21967_prev_ui.png" alt="" />
             </div>
             <div className="form w-1/2 h-full bg-white">
-              <form action="#" className="w-[85%] p-12 mx-auto my-8 flex flex-col items-center">
+              <form id="form-contact" action="#" className="w-[85%] p-12 mx-auto my-8 flex flex-col items-center">
                 <div className="w-full mb-8">
                   <input type="text" placeholder="Your Name" className="form-input"/>
                 </div>

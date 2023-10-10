@@ -28,3 +28,17 @@
 .item-nav-bar-link.active{
     color: #ffbd39;
 }
+
+.side-bar {
+    width: 250px;
+    height: 100vh;
+    background-color: black;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    left: -40rem;
+    position: absolute;
+    transition: all .3s;
+}
+.side-bar.active {
+    left: 0;
+}
