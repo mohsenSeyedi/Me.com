@@ -17,7 +17,7 @@ export default function NavBar () {
                     <div className="nav-bar-logo">
                         <a href="#me" className="text-5xl font-bold font-sans">MOHSEN</a>
                     </div>
-                    <ul id="items-nav-bar" className="w-[70%] pl-40 flex justify-evenly md:hidden">
+                    <ul id="items-nav-bar" className="w-[70%] pl-40 flex justify-evenly lg:w-[80%] md:hidden">
                         <li><a href="#aboutMe-section" className="item-nav-bar-link opacity-90 text-3xl font-semibold relative">About-Me</a></li>
                         <li><a href="#skills-section" className="item-nav-bar-link opacity-90 text-3xl font-semibold relative">Skills</a></li>
                         <li><a href="#projects-section" className="item-nav-bar-link opacity-90 text-3xl font-semibold relative">Projects</a></li>
