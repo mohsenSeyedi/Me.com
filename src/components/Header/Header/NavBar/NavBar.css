@@ -36,6 +36,7 @@
     border-top: 1px solid gray;
     border-right: 1px solid gray;
     left: -40rem;
+    z-index: 999;
     position: absolute;
     transition: all .3s;
 }
