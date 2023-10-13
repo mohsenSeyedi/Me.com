@@ -16,11 +16,11 @@ export default function Projects() {
         <div className="w-[95%] flex flex-col items-center justify-center">
             <div className="flex flex-col items-center justify-center">
                 <h4 className="header-text before:content-['Projects'] before:mt-[-1rem] before:left-[-3rem]">Our Projects</h4>
-                <p className="text-3xl mt-14">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                <p className="text-3xl mt-14 text-center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
             </div>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper w-full h-full mt-32">
                 {projects.map(project => (
-                    <SwiperSlide style={{ display : "flex" }} className="w-full justify-between"><Project key={project.id} {...project} /></SwiperSlide>
+                    <SwiperSlide style={{ display : "flex" }} className="w-full justify-between md:flex-col-reverse md:items-center"><Project key={project.id} {...project} /></SwiperSlide>
                 ))}
             </Swiper>
         </div>
