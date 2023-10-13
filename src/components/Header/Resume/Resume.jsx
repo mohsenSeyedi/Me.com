@@ -10,7 +10,7 @@ export default function Resume() {
                 <h4 className="header-text before:content-['Resume'] before:top-[-2rem]">Resume</h4>
                 <p className="w-[90%] text-center text-3xl mt-14">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
             </div>
-            <div id="resume-boxes" className="grid grid-cols-2 gap-12 mt-24">
+            <div id="resume-boxes" className="grid grid-cols-2 gap-12 mt-24 md:grid-cols-1">
               <Box year="2014-2015" title="Master Degree of Design"></Box>
               <Box year="2014-2015" title="Art & Creative Director"></Box>
               <Box year="2017-2018" title="Bachelor's Degree of C.A"></Box>
