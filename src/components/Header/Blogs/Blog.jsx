@@ -9,7 +9,7 @@ export default function Blog(props) {
               <img className="w-full h-full object-cover" src={`${props.img}`} alt="" />
             </a>
             <div className="blog-text mt-8">
-                <div className="w-9/12 flex items-center justify-between mt-4 text-2xl mb-8">
+                <div className="w-9/12 flex items-center justify-between mt-4 text-2xl mb-8 lg:w-11/12 md:w-1/2">
                     <span className="text-yellow-color">JUNE 21, 2019</span>
                     <span className="text-yellow-color">ADMIN</span>
                     <a href="#" className="flex items-center text-yellow-color"> 
