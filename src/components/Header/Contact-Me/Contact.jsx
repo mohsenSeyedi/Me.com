@@ -19,17 +19,17 @@ export default function Contact() {
             <h4 className="header-text before:content-['Contact'] before:left-[-4] before:top-[-1rem]">Contact Me</h4>
             <p className="w-[90%] text-center text-3xl mt-14">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
         </div>
-        <div id="contact-boxes" className="w-full grid grid-cols-4 mt-32">
+        <div id="contact-boxes" className="w-full grid grid-cols-4 mt-32 md:grid-cols-2 sm:grid-cols-1">
           {contactBoxes.map(box => (
             <Box key={box.id} {...box}/>
           ))}
         </div>
         <div className="w-full flex items-center justify-center mt-20">
-          <div className="w-[95%] h-[95vh] mx-auto flex bg-[#1e1e1e] rounded-md">
+          <div className="w-[95%] h-[95vh] mx-auto flex bg-[#1e1e1e] rounded-md md:flex-col-reverse md:h-auto md:items-center">
             <div className="img w-1/2 flex items-center justify-center">
-              <img className="w-full h-full object-contain" src="./img/me/msg317320486-21967_prev_ui.png" alt="" />
+              <img className="w-full h-full object-contain md:mx-auto" src="./img/me/msg317320486-21967_prev_ui.png" alt="" />
             </div>
-            <div className="form w-1/2 h-full bg-white">
+            <div className="form w-1/2 h-full bg-white md:w-full">
               <form id="form-contact" action="#" className="w-[85%] p-12 mx-auto my-8 flex flex-col items-center">
                 <div className="w-full mb-8">
                   <input type="text" placeholder="Your Name" className="form-input"/>
