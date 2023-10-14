@@ -13,7 +13,7 @@ export default function Achievements() {
 
   return (
     <div id="achievements" className="w-full h-auto flex flex-col items-center justify-center relative mt-32">
-        <div id="achievements-boxes" className="w-11/12 grid grid-cols-4 gap-12 absolute top-36">
+        <div id="achievements-boxes" className="w-11/12 grid grid-cols-4 gap-12 absolute top-36 lg:grid-cols-2 lg:top-4 sm:grid-cols-1 sm:bottom-80">
           {achievements.map(achievement => (
             <Box key={achievement.id} {...achievement}/>
           ))}
