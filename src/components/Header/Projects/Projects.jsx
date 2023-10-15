@@ -20,7 +20,7 @@ export default function Projects() {
             </div>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper w-full h-full mt-32">
                 {projects.map(project => (
-                    <SwiperSlide style={{ display : "flex" }} className="w-full justify-between md:flex-col-reverse md:items-center"><Project key={project.id} {...project} /></SwiperSlide>
+                    <SwiperSlide key={project.id} style={{ display : "flex" }} className="w-full justify-between md:flex-col-reverse md:items-center"><Project {...project} /></SwiperSlide>
                 ))}
             </Swiper>
         </div>
