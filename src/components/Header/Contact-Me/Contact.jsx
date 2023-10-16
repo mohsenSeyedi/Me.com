@@ -24,25 +24,25 @@ export default function Contact() {
       id: 1,
       icon: <PiMapPinFill className="icon" />,
       title: "address",
-      subTitle: "198 West 21th Street, Suite 721 New York NY 10016",
+      subTitle: "Iran-Tabriz",
     },
     {
       id: 2,
       icon: <PiPhoneBold className="icon" />,
-      title: "Complete Projects",
-      subTitle: "+ 1235 2355 98",
+      title: "Phone number",
+      subTitle: "09305859071",
     },
     {
       id: 3,
       icon: <PiTelegramLogoBold className="icon" />,
       title: "Happy Customers",
-      subTitle: "info@yoursite.com",
+      subTitle: "very much 😂",
     },
     {
       id: 4,
       icon: <PiGlobeDuotone className="icon" />,
-      title: "Cups of coffee",
-      subTitle: "mohsen.com",
+      title: "website Address",
+      subTitle: "mohsenseyedi.iran.liara.run",
     },
   ]);
 
@@ -116,8 +116,7 @@ export default function Contact() {
             Contact Me
           </h4>
           <p className="w-[90%] text-center text-3xl mt-14">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia
+          I will be very happy if you are in contact with me, so message me from wherever you want
           </p>
         </div>
         <div

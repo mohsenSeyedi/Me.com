@@ -23,7 +23,7 @@ export default function Projects() {
         <div className="w-[95%] flex flex-col items-center justify-center">
             <div className="flex flex-col items-center justify-center">
                 <h4 className="header-text before:content-['Projects'] before:mt-[-1rem] before:left-[-3rem]">Our Projects</h4>
-                <p className="text-3xl mt-14 text-center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                <p className="text-3xl mt-14 text-center">These are my projects that you can view each of them I have details of other projects, but I didn't post them here</p>
             </div>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper w-full h-full mt-32" data-aos="fade-up" data-aos-duration="1000">
                 {projects.map(project => (
