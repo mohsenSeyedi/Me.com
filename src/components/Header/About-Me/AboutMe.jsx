@@ -25,7 +25,7 @@ export default function AboutMe () {
                         </li>
                         <li className="w-full flex mt-4 md:mt-10">
                             <span className="w-[40%] font-bold">Date of birth:</span>
-                            <span className="w-[40%] text-gray-color sm:ml-6 vs:ml-12">January 01, 1987</span>
+                            <span className="w-[40%] text-gray-color sm:ml-6 vs:ml-12">30 - 1 - 2004</span>
                         </li>
                         <li className="w-full flex mt-4 md:mt-10">
                             <span className="w-[40%] font-bold">Address:</span>
