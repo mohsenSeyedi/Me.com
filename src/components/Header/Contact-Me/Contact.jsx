@@ -1,9 +1,11 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef ,useEffect } from "react";
 import { useFormik } from "formik";
 import swal from "sweetalert";
 import { sendMessage } from "../../../Validations/rules";
 import "./Contact.css";
 import Box from "./Box";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import {
   PiMapPinFill,
   PiPhoneBold,
@@ -96,6 +98,10 @@ export default function Contact() {
     }
   };
 
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <div
       id="contact-section"
@@ -117,6 +123,7 @@ export default function Contact() {
         <div
           id="contact-boxes"
           className="w-full grid grid-cols-4 mt-32 md:grid-cols-2 sm:grid-cols-1"
+          data-aos="fade-up" data-aos-duration="1000"
         >
           {contactBoxes.map((box) => (
             <Box key={box.id} {...box} />

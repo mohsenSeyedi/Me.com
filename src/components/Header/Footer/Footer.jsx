@@ -11,7 +11,7 @@ export default function Footer() {
             <a href="https://instagram.com/mohsenseyedi1382" target='_blank'><AiOutlineInstagram /></a>
             <a href="https://t.me/Mohsenseis" target='_blank'><BiLogoTelegram /></a>
             <a href="https://github.com/mohsenseyedi" target='_blank'><BsGithub /></a>
-            <a href="https://github.com/mohsenseyedi" target='_blank'><BsLinkedin /></a>
+            <a href="https://www.linkedin.com/in/mohsen-seyedi-542a87275/" target='_blank'><BsLinkedin /></a>
         </div>
     </section>
   )
