@@ -1,10 +1,16 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import Blog from './Blog'
 import "./Blogs.css"
 import blogData from './data'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Blogs() {
     const [blogs , setBlogs] = useState(blogData)
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
 
   return (
     <div id="blogs-section" className="w-full flex items-center justify-center mt-60">
@@ -14,7 +20,7 @@ export default function Blogs() {
                 <p className="text-3xl mt-14 text-center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
             </div>
             <div className="w-full flex items-center justify-center mt-20">
-                <div className="w-[95%] h-auto grid grid-cols-3 gap-12 md:w-[75%] md:grid-cols-1 md:gap-20">
+                <div className="w-[95%] h-auto grid grid-cols-3 gap-12 md:w-[75%] md:grid-cols-1 md:gap-20" data-aos="fade-up" data-aos-duration="1000">
                     {blogs.map(blog => (
                         <Blog key={blog.id} {...blog}/>
                     ))}
