@@ -10,8 +10,8 @@ import {
   PiMapPinFill,
   PiPhoneBold,
   PiTelegramLogoBold,
-  PiGlobeDuotone,
 } from "react-icons/pi";
+import {AiOutlineMail} from "react-icons/ai"
 
 export default function Contact() {
   const contactForm = useFormik({
@@ -40,9 +40,9 @@ export default function Contact() {
     },
     {
       id: 4,
-      icon: <PiGlobeDuotone className="icon" />,
-      title: "website Address",
-      subTitle: "mohsenseyedi.iran.liara.run",
+      icon: <AiOutlineMail className="icon" />,
+      title: "Email Address",
+      subTitle: "mohsenseyedi@gmail.com",
     },
   ]);
 

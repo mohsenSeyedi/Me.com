@@ -14,8 +14,8 @@ function App() {
     <div className="App xl:w-full 2xl:w-[80%] 3xl:w-[80%] 2xl:mx-auto 3xl:mx-auto">
       <Header></Header>
       <AboutMe></AboutMe>
-      <Resume></Resume>
       <Skills></Skills>
+      <Resume></Resume>
       <Projects></Projects>
       <Blogs></Blogs>
       <Achievements></Achievements>
