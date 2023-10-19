@@ -4,7 +4,6 @@ const fa = {
       aboutMe : "درباره من",
       skills: " تخصص ها ",
       projects: " پروژه ها ",
-      blogs: "مقاله ها",
       Contact : "ارتباط با من"
     },
   
@@ -17,9 +16,14 @@ const fa = {
     aboutMe : {
       title : "درباره من",
       subTitle : "اینجا یه چیزایی در مورد خودم نوشتم.",
-      name : "",
-      dateOfBirth : "1382/11/10",
-      address : "ایران-تبریز",
+      nameTitle : "نام:",
+      nameValue : "محسن سیدی",
+      dateOfBirthTitle : "تاریخ تولد:",
+      dateOfBirthValue : "1382/11/10",
+      addressTitle : "آدرس:",
+      addressValue : "ایران-تبریز",
+      emailTitle : "ایمیل:",
+      phoneTitle : "شماره تماس:",
       projectcomplete : "پروژه های تکمیل شده : 5"
     },
     mySkills : {
@@ -30,11 +34,11 @@ const fa = {
     hardSkills : {
       title : "مهارت های نرم",
       subTitle : "برخلاف مهارت‌های سخت که آموختنی هستند، مهارت‌های نرم مانند احساسات و ادراک درونی افراد هستند و یادگیری آنها اگر چه به نظر می‌رسد آسان است، اما به‌ مراتب از مهارت‌های سخت، دشوارتر است." ,
-      one: 'مدیریت زمان',
-      two: 'روحیه تیمی',
-      tree: 'چالش پسند',
-      four: 'سخت کوش',
-      five: ' رقابتی',
+      one: "مدیریت زمان",
+      two: "روحیه تیمی",
+      tree: "چالش پسند",
+      four: "سخت کوش",
+      five: "رقابتی",
       english : "زبان انگلیسی خوب"
     },
     
