@@ -7,9 +7,10 @@ const en = {
       Contact : "Contact"
     },
   
-    topbar: {
+    intro: {
       hello : "HELLO !",
-      title: "I'm Mohsen Seyedi",
+      im : "I'm",
+      title: "Mohsen Seyedi",
       myJob: "A FrontEnd Developer",
       hire: "HIRE ME",
     },

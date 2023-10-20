@@ -2,38 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: Vazir;
+    src: url("../public/Fonts/Quicksand-Regular.ttf");
+  }
+}
+
+
 body {
   background-color: black;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-html{
+html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  font-family: Vazir;
 }
-p{
+p {
   color: #99999999;
 }
-*{
+* {
   color: white;
-  transition: all .1s;
+  transition: all 0.1s;
 }
 
 .header-text {
-  @apply text-[5rem] font-bold relative before:absolute before:left-[-2rem] before:opacity-10 before:text-[8rem] before:font-bold before:text-white
+  @apply text-[5rem] font-bold relative before:absolute before:left-[-2rem] before:opacity-10 before:text-[8rem] before:font-bold before:text-white;
 }
 .btn {
-  @apply bg-yellow-color text-black  rounded-full
+  @apply bg-yellow-color text-black  rounded-full;
 }
-.overlay{
-  @apply absolute inset-x-0 inset-y-0 bg-yellow-color opacity-0  transition-all duration-300 hover:opacity-70 
+.overlay {
+  @apply absolute inset-x-0 inset-y-0 bg-yellow-color opacity-0  transition-all duration-300 hover:opacity-70;
 }
-.icon{
-  @apply fill-yellow-color text-6xl
+.icon {
+  @apply fill-yellow-color text-6xl;
 }
 .form-input {
-  @apply w-full h-20 p-6 outline-none rounded-xl border border-neutral-400 text-2xl text-[#191919]
+  @apply w-full h-20 p-6 outline-none rounded-xl border border-neutral-400 text-2xl text-[#191919];
 }

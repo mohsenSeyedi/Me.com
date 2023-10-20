@@ -1,9 +1,15 @@
-import React, { useState  } from "react";
+import React, { useState ,useEffect  } from "react";
 import "./NavBar.css";
 import { BiMenuAltRight } from "react-icons/bi";
+import { useTranslation } from "react-i18next";
+import i18n from "../../../../i18n"
+import i18next from 'i18next';
+
 
 export default function NavBar() {
   const [isActive, setIsActive] = useState(false);
+  const [language, setLanguage] = useState('en')
+  const { t } = useTranslation();
 
   const clickMenuHandler = () => {
     setIsActive(!isActive);
@@ -13,6 +19,16 @@ export default function NavBar() {
       document.body.style.overflow = "hidden";
     }
   };
+
+  useEffect(() => {
+    i18n.changeLanguage(language);
+    i18n.language == 'en' ? document.documentElement.dir = 'ltr' : document.documentElement.dir = 'rtl'
+
+  }, [language])
+
+  const changeLanguageHandler = () => {
+    setLanguage(i18next.language == 'en' ? 'fa' : 'en')
+  }
 
   return (
     <>
@@ -24,21 +40,27 @@ export default function NavBar() {
           id="container-nav-bar"
           className="w-[95%] flex items-center justify-between"
         >
-          <div className="nav-bar-logo">
-            <a href="#me" className="text-5xl font-bold font-sans">
+          <div className="nav-bar-logo flex items-center">
+            <a href="#me" className="text-5xl font-bold font-sans ">
               MOHSEN
             </a>
+            <div>
+            <select onChange={changeLanguageHandler} className="w-20 bg-yellow-color text-2xl rounded-md outline-none mx-2 mt-1">
+                <option className="rounded-md" value="fa">en</option>
+                <option className="rounded-md" value="en">fa</option>
+              </select>
+            </div>
           </div>
           <ul
             id="items-nav-bar"
-            className="w-[70%] pl-40 flex justify-evenly lg:w-[80%] md:hidden"
+            className="w-[70%] flex justify-evenly lg:w-[80%] md:hidden"
           >
             <li>
               <a
                 href="#aboutMe-section"
                 className="item-nav-bar-link opacity-90 text-3xl font-semibold relative"
               >
-                About-Me
+                {t("header.aboutMe")}
               </a>
             </li>
             <li>
@@ -46,7 +68,7 @@ export default function NavBar() {
                 href="#skills-section"
                 className="item-nav-bar-link opacity-90 text-3xl font-semibold relative"
               >
-                Skills
+                {t("header.skills")}
               </a>
             </li>
             <li>
@@ -54,7 +76,7 @@ export default function NavBar() {
                 href="#projects-section"
                 className="item-nav-bar-link opacity-90 text-3xl font-semibold relative"
               >
-                Projects
+                {t("header.projects")}
               </a>
             </li>
             <li>
@@ -62,17 +84,10 @@ export default function NavBar() {
                 href="#blogs-section"
                 className="item-nav-bar-link opacity-90 text-3xl font-semibold relative"
               >
-                My Blog
+                {t("header.Contact")}
               </a>
             </li>
-            <li>
-              <a
-                href="#contact-section"
-                className="item-nav-bar-link opacity-90 text-3xl font-semibold relative"
-              >
-                Contact
-              </a>
-            </li>
+
           </ul>
           <button
             className="text-6xl hidden md:block"
@@ -82,9 +97,9 @@ export default function NavBar() {
           </button>
         </div>
       </div>
-      <div className={`side-bar  ${isActive ? "active" : ""}`}>
+      <div className={`${i18n.language=="fa" ? "side-bar-fa" : "side-bar-en"}  ${isActive ? "active" : ""}`}>
         <button
-          className="w-full text-5xl text-right pr-4 text-red-600"
+          className={`${i18n.language=="fa" ? "text-left pl-4" : "text-right pr-4"} w-full text-5xl  text-yellow-color`}
           onClick={clickMenuHandler}
         >
           x
@@ -98,7 +113,7 @@ export default function NavBar() {
               href="#aboutMe-section"
               className="item-nav-bar-link opacity-90 text-3xl font-semibold relative"
             >
-              About-Me
+              {t("header.aboutMe")}
             </a>
           </li>
           <li>
@@ -106,7 +121,7 @@ export default function NavBar() {
               href="#skills-section"
               className="item-nav-bar-link opacity-90 text-3xl font-semibold relative"
             >
-              Skills
+              {t("header.skills")}
             </a>
           </li>
           <li>
@@ -114,15 +129,7 @@ export default function NavBar() {
               href="#projects-section"
               className="item-nav-bar-link opacity-90 text-3xl font-semibold relative"
             >
-              Projects
-            </a>
-          </li>
-          <li>
-            <a
-              href="#blogs-section"
-              className="item-nav-bar-link opacity-90 text-3xl font-semibold relative"
-            >
-              My Blog
+              {t("header.projects")}
             </a>
           </li>
           <li>
@@ -130,7 +137,7 @@ export default function NavBar() {
               href="#contact-section"
               className="item-nav-bar-link opacity-90 text-3xl font-semibold relative"
             >
-              Contact
+              {t("header.Contact")}
             </a>
           </li>
         </ul>

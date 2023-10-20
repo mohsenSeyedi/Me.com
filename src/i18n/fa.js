@@ -7,8 +7,9 @@ const fa = {
       Contact : "ارتباط با من"
     },
   
-    topbar: {
+    intro: {
       hello : "سلام !",
+      im : "من",
       title: "محسن سیدی هستم",
       myJob: "فرانت دولوپر",
       hire: "گپ بزنیم",

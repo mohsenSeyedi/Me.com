@@ -2,7 +2,7 @@
 .item-nav-bar-link::after{
     content: "";
     position: absolute;
-    top: 100%; 
+    top: 115%; 
     left: 0;
     width: 0;
     height: 2px;
@@ -14,22 +14,8 @@
     width: 100%;
     left: 0;
 }
-.item-nav-bar-link.active::after{
-    content: "";
-    position: absolute;
-    top: 100%; 
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: #ffbd39;
-    transition: width 0.3s, left 0.3s;
-    transform-origin: left;
-}
-.item-nav-bar-link.active{
-    color: #ffbd39;
-}
 
-.side-bar {
+.side-bar-en {
     width: 250px;
     height: 100vh;
     background-color: black;
@@ -40,6 +26,20 @@
     position: absolute;
     transition: all .3s;
 }
-.side-bar.active {
+.side-bar-en.active {
     left: 0;
+}
+.side-bar-fa {
+    width: 250px;
+    height: 100vh;
+    background-color: black;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    right: -40rem;
+    z-index: 999;
+    position: absolute;
+    transition: all .3s;
+}
+.side-bar-fa.active {
+    right:  0;
 }

@@ -8,7 +8,10 @@ module.exports = {
       colors : {
         "yellow-color" : "#ffbd39",
         "gray-color" : "#99999999"
-      }
+      },
+      fontFamily:{
+        "vazir": "Vazir",
+      },
     },
     screens: {
       '3xl': {'min': '1536px'},
@@ -19,7 +22,9 @@ module.exports = {
       'sm': {'max': '550px'},
       'vs': {'max': '350px'}
     }
+    
   },
+
   plugins: [],
 }
 
