@@ -1,13 +1,13 @@
 import "./index.css"
-import Header from './components/Header/Header/Header';
-import AboutMe from './components/Header/About-Me/AboutMe';
-import Resume from './components/Header/Resume/Resume';
-import Skills from './components/Header/Skills/Skills';
-import Projects from "./components/Header/Projects/Projects";
-import Blogs from "./components/Header/Blogs/Blogs";
-import Achievements from "./components/Header/Achievements/Achievements";
-import Contact from "./components/Header/Contact-Me/Contact";
-import Footer from "./components/Header/Footer/Footer";
+import Header from './components/Header/Header';
+import AboutMe from './components/About-Me/AboutMe';
+import SoftSkills from "./components/SoftSkills/SoftSkills";
+import Skills from './components/Skills/Skills';
+import Projects from "./components/Projects/Projects";
+// import Blogs from "./components/Blogs/Blogs";
+import Achievements from "./components/Achievements/Achievements";
+import Contact from "./components/Contact-Me/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -15,9 +15,9 @@ function App() {
       <Header></Header>
       <AboutMe></AboutMe>
       <Skills></Skills>
-      <Resume></Resume>
+      <SoftSkills></SoftSkills>
       <Projects></Projects>
-      <Blogs></Blogs>
+      {/* <Blogs></Blogs> */}
       <Achievements></Achievements>
       <Contact></Contact>
       <Footer></Footer>

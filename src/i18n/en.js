@@ -41,7 +41,7 @@ const en = {
       tree: "studious",
       four: "Hardworking",
       five: "competitive",
-      english : "English language"
+      six : "English language"
     },
     
     projects : {
