@@ -25,7 +25,8 @@ const fa = {
       addressValue : "ایران-تبریز",
       emailTitle : "ایمیل:",
       phoneTitle : "شماره تماس:",
-      projectcomplete : "پروژه های تکمیل شده : 5"
+      projectcomplete : "پروژه های تکمیل شده",
+      projectcompleteCount : "5"
     },
     mySkills : {
       title : "تخصص ها",

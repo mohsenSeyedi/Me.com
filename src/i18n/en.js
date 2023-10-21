@@ -25,7 +25,8 @@ const en = {
       addressValue : "Iran-Tabriz",
       emailTitle : "Email:",
       phoneTitle : "Phone:",
-      projectcomplete : "5 Project complete"
+      projectcomplete : "Project complete",
+      projectcompleteCount : "5"
     },
     mySkills : {
       title : "My skills",
