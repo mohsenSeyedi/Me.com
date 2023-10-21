@@ -15,7 +15,7 @@ export default function Header () {
     }, [])
 
     return (
-        <div id="Header" className="w-full h-auto" data-aos="fade-down" data-aos-delay="1000" data-aos-duration="2000">
+        <div id="Header" className="w-full h-auto" >
             <NavBar></NavBar>
             <div id="section-img" dir={i18n.language == 'fa' ? 'rtl' : 'ltr'} className="w-full h-auto flex items-center relative" >
                 <div id="section-img-text" className={`${i18n.language=='fa' && 'pr-16'} w-[40%] pb-24 pl-16 z-50 md:absolute md:w-[80%] md:ml-28 sm:w-full sm:ml-[-2rem]`}>

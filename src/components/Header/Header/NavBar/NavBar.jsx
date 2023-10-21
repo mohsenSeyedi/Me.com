@@ -45,9 +45,9 @@ export default function NavBar() {
               MOHSEN
             </a>
             <div>
-            <select onChange={changeLanguageHandler} className="w-20 bg-yellow-color text-2xl rounded-md outline-none mx-2 mt-1">
-                <option className="rounded-md" value="fa">en</option>
-                <option className="rounded-md" value="en">fa</option>
+            <select onChange={changeLanguageHandler} className="w-28 bg-gray-color cursor-pointer text-yellow-color text-2xl rounded-md outline-none mx-2 mt-1">
+                <option className="cursor-pointer" value="fa">en</option>
+                <option className="cursor-pointer" value="en">fa</option>
               </select>
             </div>
           </div>
