@@ -1,0 +1,29 @@
+.project{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#project-1{
+    background-image: url(../../../public/img/projects/project-4.jpg.webp);
+}
+#project-2{
+    background-image: url(../../../public/img/projects/project-5.jpg.webp);
+}
+#project-3{
+    background-image: url(../../../public/img/projects/project-1.jpg.webp);
+}
+#project-4{
+    background-image: url(../../../public/img/projects/project-2.jpg.webp);
+}
+#project-5{
+    background-image: url(../../../public/img/projects/project-6.jpg.webp);
+}
+#project-6{
+    background-image: url(../../../public/img/projects/project-3.jpg.webp);
+}
+.text{
+    opacity: 0;
+}
+.project:hover .text{
+    opacity: 1;
+}
