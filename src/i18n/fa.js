@@ -25,7 +25,7 @@ const fa = {
       addressValue : "ایران-تبریز",
       emailTitle : "ایمیل:",
       phoneTitle : "شماره تماس:",
-      projectcomplete : "پروژه های تکمیل شده",
+      projectcomplete : "پروژه تکمیل شده دارم",
       projectcompleteCount : "5"
     },
     mySkills : {
@@ -50,7 +50,6 @@ const fa = {
     },
   
     achievements : {
-      title : "من پروژه های فریلنسری رو انجام میدم",
       subTitle : "هر چی میخوای بهم بگو شاید تونستم کمکت کنم !"
     },
     
