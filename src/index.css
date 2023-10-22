@@ -7,21 +7,20 @@
     font-family: Vazir;
     src: url("../public/Fonts/Quicksand-Regular.ttf");
   }
+  @font-face {
+    font-family: IRANSans;
+    src: url('../public/Fonts/IRANSans/IRANSans.ttf');
+}
 }
 
 
 body {
   background-color: black;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  font-family: Vazir;
+  font-family: IRANSans;
 }
 p {
   color: #99999999;
