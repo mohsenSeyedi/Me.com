@@ -5,7 +5,6 @@ import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
 import i18n from "../../i18n"
 import { BiTimer } from 'react-icons/bi';
-import { GrLanguage } from 'react-icons/gr';
 import { BsPersonWorkspace } from 'react-icons/bs';
 import { RiTeamLine ,RiEnglishInput } from 'react-icons/ri';
 import { GiBurningBook , GiOpenBook} from 'react-icons/gi';
