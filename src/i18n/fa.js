@@ -54,9 +54,9 @@ const fa = {
     },
     
     footer: {
-      footer_title: "صحبت کنیم :)",
+      title: "صحبت کنیم :)",
       subTitle : "خیلی خوشحال میشم که با من در ارتباط باشی .",
-      address_title: "آدرس",
+      address_title: "آدرس :",
       address_value: "ایران-تبریز",
       email_title: " ایمیل :",
       phone_title: " شماره تماس :",

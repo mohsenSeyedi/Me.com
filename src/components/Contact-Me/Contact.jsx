@@ -12,8 +12,12 @@ import {
   PiTelegramLogoBold,
 } from "react-icons/pi";
 import {AiOutlineMail} from "react-icons/ai"
+import { useTranslation } from "react-i18next";
+import i18n from "../../i18n"
 
 export default function Contact() {
+  const { t } = useTranslation();
+
   const contactForm = useFormik({
     initialValues: { name: "", email: "", message: "" },
     validationSchema : sendMessage
@@ -23,13 +27,13 @@ export default function Contact() {
     {
       id: 1,
       icon: <PiMapPinFill className="icon" />,
-      title: "address",
-      subTitle: "Iran-Tabriz",
+      title: t("footer.address_title"),
+      subTitle: t("footer.address_value"),
     },
     {
       id: 2,
       icon: <PiPhoneBold className="icon" />,
-      title: "Phone number",
+      title: t("footer.phone_title"),
       subTitle: "09305859071",
     },
     {
@@ -41,7 +45,7 @@ export default function Contact() {
     {
       id: 4,
       icon: <AiOutlineMail className="icon" />,
-      title: "Email Address",
+      title: t("footer.email_title"),
       subTitle: "mohsenseyedi@gmail.com",
     },
   ]);
@@ -112,11 +116,11 @@ export default function Contact() {
         className="w-[95%] flex flex-col items-center justify-center"
       >
         <div className="flex flex-col items-center justify-center">
-          <h4 className="header-text before:content-['Contact'] before:left-[-4] before:top-[-1rem]">
-            Contact Me
+          <h4 className={`${i18n.language == "en" && "before:content-['Contact']"} header-text  before:left-[-4] before:top-[-1rem]`}>
+            {t("footer.title")}
           </h4>
-          <p className="w-[90%] text-center text-3xl mt-14">
-          I will be very happy if you are in contact with me, so message me from wherever you want
+          <p className="w-full text-center text-3xl mt-14">
+          {t(t("footer.subTitle"))}
           </p>
         </div>
         <div
@@ -181,7 +185,7 @@ export default function Contact() {
                   <input
                     className="btn py-6 px-16 text-2xl cursor-pointer transition-all duration-300 hover:opacity-75"
                     type="submit"
-                    value={"SEND MESSAGE"}
+                    value={t("footer.button")}
                   />
                 </div>
               </form>
