@@ -47,7 +47,7 @@ export default function NavBar() {
             <div>
               <select
                 onChange={changeLanguageHandler}
-                className="w-28 bg-gray-color cursor-pointer text-yellow-color text-2xl rounded-md outline-none mx-2 mt-1"
+                className="w-28 text-black  cursor-pointer bg-yellow-color text-2xl rounded-md outline-none mx-2 mt-1"
               >
                 <option className="cursor-pointer" value="fa">
                   en
